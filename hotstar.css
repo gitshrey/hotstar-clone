@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(12, 17, 27);
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+header {
+  background-color: rgb(19, 26, 39);
+  color: rgb(203, 201, 201);
+  padding: 25px 30px 25px 15px;
+}
+
+.nav-elements .nav-list .list-items {
+  list-style-type: none;
+  display: flex;
+
+  justify-content: flex-start;
+}
+
+.nav-elements .nav-list .list-items > li {
+  display: inline;
+  padding-left: 28px;
+  font-size: 16px;
+  padding-top: 1px;
+}
+
+.nav-elements .nav-list .list-items > li img {
+  width: 50px;
+  height: 20px;
+}
+
+.nav-elements .nav-list .list-items :hover {
+  color: white;
+  cursor: pointer;
+}
+
+.nav-elements .nav-list .list-items .list-bars {
+  padding-left: 0px;
+  position: relative;
+  display: inline-block;
+  color: rgb(156, 156, 156);
+}
+
+/* dropdown content1 */
+
+.nav-elements .nav-list .list-items .list-bars .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(25, 33, 51);
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+  border-radius: 3px;
+}
+
+.nav-elements .nav-list .list-items .list-bars .dropdown-content a {
+  color: rgb(178, 178, 178);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+}
+
+.nav-elements .nav-list .list-items .list-bars:hover .dropdown-content {
+  display: block;
+  transform: translateY(2px);
+}
+
+.nav-elements .nav-list .list-items .list-bars .dropdown-content > a:hover {
+  background-color: rgb(12, 17, 27);
+}
+
+/* dropdown list for burger */
+
+/* dropdown for Tv */
+.nav-elements .nav-list .list-items .list-bars2 .dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: rgb(25, 33, 51);
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+  border-radius: 3px;
+  transition: 2s;
+}
+
+.nav-elements .nav-list .list-items .list-bars2 .dropdown-content2 a {
+  color: rgb(178, 178, 178);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+}
+
+.nav-elements .nav-list .list-items .list-bars2:hover .dropdown-content2 {
+  display: block;
+  transform: translateY(2px);
+}
+
+.nav-elements .nav-list .list-items .list-bars2 .dropdown-content2 > a:hover {
+  background-color: rgb(12, 17, 27);
+}
+
+/* dropdown list for tv */
+
+/* dropdown for Movies*/
+
+.nav-elements .nav-list .list-items .list-bars3 .dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: rgb(25, 33, 51);
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+  border-radius: 3px;
+  transition: 2s;
+}
+
+.nav-elements .nav-list .list-items .list-bars3 .dropdown-content3 a {
+  color: rgb(178, 178, 178);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+}
+
+.nav-elements .nav-list .list-items .list-bars3:hover .dropdown-content3 {
+  display: block;
+  transform: translateY(2px);
+}
+
+.nav-elements .nav-list .list-items .list-bars3 .dropdown-content3 > a:hover {
+  background-color: rgb(12, 17, 27);
+}
+
+/* dropdown list for movies */
+
+/* dropdown for Tv */
+.nav-elements .nav-list .list-items .list-bars4 .dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: rgb(25, 33, 51);
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+  border-radius: 3px;
+  transition: 2s;
+}
+
+.nav-elements .nav-list .list-items .list-bars4 .dropdown-content4 a {
+  color: rgb(178, 178, 178);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+}
+
+.nav-elements .nav-list .list-items .list-bars4:hover .dropdown-content4 {
+  display: block;
+  transform: translateY(2px);
+}
+
+.nav-elements .nav-list .list-items .list-bars4 .dropdown-content4 > a:hover {
+  background-color: rgb(12, 17, 27);
+}
+
+/* dropdown list for tv */
+
+/* dropdown for profile button */
+.nav-elements .search-bar .profile-btn .dropdown-content5 {
+  display: none;
+
+  position: absolute;
+  background-color: rgb(25, 33, 51);
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: inherit;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+
+  border: none;
+  border-radius: 3px;
+  transition: 2s;
+}
+
+.nav-elements .search-bar .profile-btn .dropdown-content5 a {
+  color: rgb(178, 178, 178);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+}
+
+.nav-elements .search-bar .profile-btn:hover .dropdown-content5 {
+  display: block;
+  transform: translateY(2px);
+  transform: translateX(-70px);
+}
+
+.nav-elements .search-bar .profile-btn .dropdown-content5 > a:hover {
+  background-color: rgb(12, 17, 27);
+}
+/* dropdown for profile button */
+
+.nav-elements .nav-list .list-items :nth-child(7) {
+  font-family: "ABeeZee", sans-serif;
+  color: rgb(243, 196, 9);
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.nav-elements {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar .subscribe-button button {
+  background-color: rgb(31, 128, 224);
+  border: 0;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 5px 12px 5px 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.search-bar .profile-btn > img {
+  height: 29px;
+  width: 29px;
+}
+
+.search-bar .profile-btn {
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+.search-bar .subscribe-button {
+  padding-left: 25px;
+}
+
+.search-bar .search {
+  border-bottom: 1px solid rgb(161, 163, 168);
+  width: 250px;
+  display: flex;
+  transition: 0.5s;
+}
+
+.search-bar .search > input {
+  border: 0;
+  background-color: transparent;
+  color: white;
+  flex: 1;
+  outline: none;
+}
+
+.search-bar .search .search-button {
+  border: 0;
+  background-color: transparent;
+  color: rgb(106, 115, 119);
+}
+
+::placeholder {
+  color: rgb(203, 206, 209);
+}
+
+.search-bar .search:hover {
+  width: 350px;
+  border-bottom: 1px solid rgb(31, 128, 224);
+}
